@@ -57,7 +57,7 @@
       apply: function () {
         if (heroLede) {
           heroLede.textContent =
-            'HVAC, electrical, general building, and remodel support across Riverside and the Inland Empire. Fixed itemised quotes before we start, Dan as your named lead on site, and a twelve-month workmanship guarantee when we leave.';
+            'HVAC, electrical, general building, and remodel support. Across Riverside and the Inland Empire. Dan looks at the job first and puts the price in writing.';
         }
       }
     },
@@ -65,7 +65,7 @@
       id: 'h1',
       apply: function () {
         if (heroH) {
-          heroH.innerHTML = 'HVAC, electrical,<br>and building,<br>quoted <em>before</em> we start.';
+          heroH.innerHTML = 'HVAC and electrical,<br>priced <em>first.</em>';
         }
       }
     },
@@ -73,7 +73,7 @@
       id: 'service',
       apply: function () {
         if (serviceFirst) {
-          serviceFirst.textContent = 'HVAC (written programme)';
+          serviceFirst.textContent = 'HVAC service and replacement (written price)';
         }
       }
     }
@@ -85,7 +85,7 @@
     /* mode: draft | updated */
     if (!barSub) return;
     if (mode === 'updated') {
-      barSub.textContent = 'Draft updated. More changes? Or claim it.';
+      barSub.textContent = 'Draft for Dan at Dan Sheer. Claim it, preview the rest of the journey, or request a change.';
     } else {
       barSub.textContent = 'Draft for Dan at Dan Sheer. Claim it, preview the rest of the journey, or request a change.';
     }
