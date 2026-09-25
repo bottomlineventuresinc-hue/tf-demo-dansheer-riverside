@@ -57,7 +57,7 @@
       apply: function () {
         if (heroLede) {
           heroLede.textContent =
-            'HVAC, electrical, general building, and remodel support. Across Riverside and the Inland Empire. Dan looks at the job first and puts the price in writing.';
+            'HVAC, electrical, general building, and remodel support in Riverside. Dan looks at the job first and puts the price in writing.';
         }
       }
     },
